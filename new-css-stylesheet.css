@@ -1,0 +1,388 @@
+body{
+    background-color: #f4f2f2;
+    color: #777;
+    font-family: 'Source Sans Pro', sans-serif;!important;
+    font: normal 18px 'Source Sans Pro', "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+p {
+    font-size: 18px;
+    line-height: 20px;
+	margin-bottom: 20px;
+}
+
+h1{
+    font-family: 'Cinzel', serif!important;
+    /*    text-shadow: 2px 2px 4px #aaa;*/
+    color: "white";
+    font-size: 45px;
+	margin-bottom: 20px;
+    font-weight:bold;
+}
+
+h2{
+    font-family: 'Cinzel', serif!important;
+    font-weight:300;
+    color: white;
+    font-size: 55px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 30px;
+    color: white;
+    font-weight:bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-family: 'Cinzel';
+}
+
+h4 {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+h5{
+    font-size: 15px;
+    color:white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.clear {
+    clear:both;
+}
+
+.wrapper {
+	margin: 0 auto;
+/*	padding: 0 10px;*/
+    /*width:940px*/
+}
+#logo {
+    color: black;
+}
+
+/*----------------------Header---------------------*/
+
+
+#newNavigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    text-transform: uppercase;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.newNavBar a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/*
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+*/
+
+#navRight a{
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#logo {
+    text-align: center;
+}
+
+#title {
+    padding-bottom: 0.02px;
+}
+
+li a:hover:not(.active) {
+    text-decoration: none;
+    color:#ffa100 ;
+}
+
+span {
+    text-decoration: none;
+    color: #ffa100;
+}
+
+/*---------------------Background Image---------------------*/
+#header-background {
+    height:800px;
+    padding-top: 1px;
+    background: #e8eced url('../images/header-background1.jpg') no-repeat center;
+}
+
+
+#header-background h2{
+    margin:680px 0px 60px 0;
+    color: white;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+/*----------------Features---------------------*/
+#features ul {
+/*	margin: 80px 0;*/
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+
+#features ul li {
+/*	width: 390px;*/
+	padding-top: 140px;
+/*
+	float: left;
+	margin-right: 10px;
+*/
+	text-align: center;
+    margin: auto;
+}
+
+#features ul li.feature-1 {
+    background: url('/images/features-icon-1.png') no-repeat top center;
+}
+
+#features ul li.feature-2 {
+    background: url('/images/features-icon-2.png') no-repeat top center;
+}
+
+#features ul li.feature-3 {
+    background: url('/images/features-icon-3.png') no-repeat top center;
+}
+
+/*----------------Primary Content----------------------*/
+
+#primary-content {
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#primary-content h2 {
+    display: block;
+    margin: 0 auto 20px auto;
+    width:400px;
+    border-bottom: 1px solid #444443;
+    padding: 0 0 20px 0;
+}
+
+/*
+#centralPara {
+    width: 60%;
+    margin: 0 auto 20px auto;
+}
+*/
+#centralBG {
+/*    background-color: #f2f1f6;*/
+    width: 60%;
+    margin: 0 auto 20px auto;
+    padding: 20px
+}
+
+#main-article-image {
+    margin: 0 auto 20px auto;
+    width:50%;
+    margin-top: 20px;
+    border: 4px solid #ddd;
+    border-radius: 4px;
+}
+
+    /*------------------Find Out More-----------------*/
+    #cta {
+        padding: 60px 0;
+        text-align: center;
+    }
+
+    #cta h3{
+        display: block;
+        margin: 0 auto 20px auto;
+        width: 400px;
+        border-bottom: 1px solid #444443;
+        padding: 0 0 20px 0;
+    }
+
+    .button-2 {
+        display: inline;
+        padding: 10px 10px 10px 10px;
+        margin: 0 auto;
+    /*    border: 2px solid #02b8dd;*/
+        color: white;
+        background-color: #ffa100;
+        width: 180px;
+        height: 40px;
+        font-size: 20px;
+        line-height: 50px;
+    }
+
+    .button-2:hover {
+        background-color: #444443;
+        color: #fff;
+        text-decoration: none;
+    }
+
+/*
+.about-image {
+    margin-left: -250px;
+}*/
+
+/* ---------------------Front Testimonials--------------------- */
+#content-background {
+    background-image:url(/images/header-bg.jpg);
+}
+
+#testimonials-home-pg{
+    padding: 60px 0;
+    display: inline!important;
+    background-color:gray!important;
+}
+
+#testimonials-home-pg1{
+    text-align: center;
+    
+}
+
+blockquote {
+    background:#f2f1f6;
+    color: black;
+     position: relative;
+     display: inline-block;
+     padding: 0 5px;
+     margin: 0px auto;
+     width: 50%
+}
+/*
+blockquote {
+    display: block;
+    border-bottom: 1px solid #444443;
+    padding: 0 0 20px 0;
+    font-size:16px; 
+    padding:18px 20px 1px 20px;
+    background:#f2f1f6;
+    margin: 0 auto;
+}
+*/
+/*---------------------Footer---------------------*/
+
+footer{
+    
+    padding: 20px 0;
+    background-color: #444443;
+/*    background: rgba(0, 0, 0, 0.4);*/
+}
+
+#footer-info{
+    text-align: center;
+    width:380;
+    margin-top: 10px;
+    margin-left: 20px;
+    color: white;
+    text-decoration: none!important;
+}
+
+#footer-links {
+    margin-right: 80px;
+	float: right;
+    color: white;
+    text-decoration: none!important;
+}
+
+#footer-links ul {
+	width: 150px;
+	float: left;
+	margin-left: 20px;
+    text-decoration: none!important;
+}
+
+#footer-links ul li {
+	margin: 10px 0;
+    text-decoration: none!important;
+}
+
+#ellenWeb {
+    text-decoration: none;
+    color: #ffa100;
+}
+
+#ellenWeb:hover { 
+    color: #fff!important;
+}
+
+#emailHover {
+    text-decoration: none;
+    color: #fff;
+}
+
+#emailHover:hover { 
+    color: #ffa100!important;
+}
+
+.post-container {
+    margin: 20px 20px 0 0; 
+    overflow: auto
+}
+.post-thumb {
+    float: left
+}
+.post-thumb img {
+    display: block
+}
+.post-content {
+    margin-left: 210px
+}
+.post-title {
+/*    font-weight: bold;*/
+    font-size: 200%
+}
+
+#contact-emails {
+    text-decoration: none;!important
+}
+
+.logo-text {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#contact-fb {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+#contact-fb:hover {
+    color: #ffa100;
+}
